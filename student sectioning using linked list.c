@@ -28,7 +28,6 @@ student * add_student(char * name, char * id, student * root){
             pointing = pointing->next;
         }
         pointing->next = new_student;
-        root = pointing;
         return root;
     }
 }
